@@ -1,0 +1,7 @@
+print("What is your name?")
+name = input()
+print("Hello, " + name + "! Welcome to this computer.")
+print("What is your favorite color?")
+color = input()
+print("Wowie, " + color + " is a TERRIBLE color!")
+print("Just kidding, " + color + " is a HORRIBLE color!")

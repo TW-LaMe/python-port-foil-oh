@@ -1,0 +1,6 @@
+price=input("waht is price of thingy?")
+amount=input("how many thingies?")
+total_before_tax=float(price)*float(amount)
+tax_rate=input("what is tax rate?")
+total_tax=total_before_tax*float(tax_rate)
+print("total tax is", total_tax)
